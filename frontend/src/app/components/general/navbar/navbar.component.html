@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default">
+    <div class="flex container-fluid">
+        <div class="navbar-header">
+            <img class="img-fluid" src="../../../../assets/images/logo.png" />
+        </div>
+        <div>
+            <ul>
+                <div *ngIf="isLogin(); then user; else guest"></div>
+                <ng-template #user>
+                    <li>
+                        <my-profile></my-profile>
+                    </li>
+                    <li>
+                        <logout></logout>
+                    </li>
+                    <li><a href="products">Products</a></li>
+                    <li><a href="purchases">Purchases</a></li>
+                </ng-template>
+                <ng-template #guest>
+                    <li>
+                        <login></login>
+                    </li>
+                    <li>
+                        <register></register>
+                    </li>
+                </ng-template>
+            </ul>
+        </div>
+    </div>
+</nav>
