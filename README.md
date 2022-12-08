@@ -26,6 +26,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+## Technologies Used
+
+   - [Spring Boot](https://spring.io/projects/spring-boot)
+   - [Angular](https://angular.io/)
+   - [JUnit](https://junit.org/junit4/)
+   - [Gradle](https://gradle.org/)
+   - [SonarCloud](https://sonarcloud.io/project/overview?id=Davidzent_ZentGamesBack) (Click to see analysis)
+   - [Javamail](https://javaee.github.io/javamail/)
 
 ## Contributors
 
